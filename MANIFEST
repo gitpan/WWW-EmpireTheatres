@@ -1,0 +1,11 @@
+Changes
+lib/WWW/EmpireTheatres.pm
+lib/WWW/EmpireTheatres/Cinema.pm
+lib/WWW/EmpireTheatres/Film.pm
+lib/WWW/EmpireTheatres/Showtime.pm
+Makefile.PL
+MANIFEST
+README
+t/01-use.t
+t/99-pod.t
+META.yml                                 Module meta-data (added by MakeMaker)
