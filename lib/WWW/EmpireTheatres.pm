@@ -61,7 +61,7 @@ use constant BASE_URL    => 'http://www.empiretheatres.com';
 use constant FILMS_URL   => BASE_URL . '/showtimes/by_movie.asp';
 use constant CINEMAS_URL => BASE_URL . '/theatres/by_theatre.asp';
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 __PACKAGE__->mk_accessors( qw( films cinemas agent ) );
 

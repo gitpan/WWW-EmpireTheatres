@@ -311,19 +311,19 @@ function getLocation(winWidth, winHeight, winLeft, winTop){
 											<td height="25" valign="top" class="etbody">
 
 												&nbsp;<br>
-												<br> <a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=23&TH_ID=CRYST&Movie=ALL&Day=3/2/05">Crystal Palace 8 Cinemas</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=22&TH_ID=REGEN&Movie=ALL&Day=3/2/05">Empire 10 Cinemas Regent Mall</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=35&TH_ID=MIRAM&Movie=ALL&Day=3/2/05">Empire Studio 5</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=56&TH_ID=TRINI&Movie=ALL&Day=3/2/05">Empire 8, Trinity Drive</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=58&TH_ID=ROTHE&Movie=ALL&Day=3/2/05">Empire 4 Cinemas</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=9&TH_ID=EXHIB&Movie=ALL&Day=3/2/05">Empire Studio 10</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=57&TH_ID=KINGS&Movie=ALL&Day=3/2/05">Empire King Square</a><br><br>
+												<br> <a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=23&TH_ID=CRYST&Movie=ALL&Day=3/3/05">Crystal Palace 8 Cinemas</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=22&TH_ID=REGEN&Movie=ALL&Day=3/3/05">Empire 10 Cinemas Regent Mall</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=35&TH_ID=MIRAM&Movie=ALL&Day=3/3/05">Empire Studio 5</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=56&TH_ID=TRINI&Movie=ALL&Day=3/3/05">Empire 8, Trinity Drive</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=58&TH_ID=ROTHE&Movie=ALL&Day=3/3/05">Empire 4 Cinemas</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=9&TH_ID=EXHIB&Movie=ALL&Day=3/3/05">Empire Studio 10</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=57&TH_ID=KINGS&Movie=ALL&Day=3/3/05">Empire King Square</a><br><br>
 
 <!--
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=23&TH_ID=CRYST&Movie=ALL&Day=3/2/05">Crystal Palace 8 Cinemas, Dieppe</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=22&TH_ID=REGEN&Movie=ALL&Day=3/2/05">Empire 10 Cinemas Regent Mall, Fredericton</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=35&TH_ID=MIRAM&Movie=ALL&Day=3/2/05">Empire Studio 5, Miramichi</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=9&TH_ID=EXHIB&Movie=ALL&Day=3/2/05">Exhibition 7 Cinemas, Saint John</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=23&TH_ID=CRYST&Movie=ALL&Day=3/3/05">Crystal Palace 8 Cinemas, Dieppe</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=22&TH_ID=REGEN&Movie=ALL&Day=3/3/05">Empire 10 Cinemas Regent Mall, Fredericton</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=35&TH_ID=MIRAM&Movie=ALL&Day=3/3/05">Empire Studio 5, Miramichi</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=9&TH_ID=EXHIB&Movie=ALL&Day=3/3/05">Exhibition 7 Cinemas, Saint John</a><br><br>
 -->
 
 
@@ -378,25 +378,25 @@ function getLocation(winWidth, winHeight, winLeft, winTop){
 
 									&nbsp;<br>
 									<br> 
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=19&th_id=PARAM&Movie=ALL&Day=3/2/05">Paramount Cinemas</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=19&th_id=PARAM&Movie=ALL&Day=3/3/05">Paramount Cinemas</a><br><br>
 
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=14&th_id=BEDFO&Movie=ALL&Day=3/2/05">Empire 6 Cinemas</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=49&th_id=BRIDG&Movie=ALL&Day=3/2/05">Empire Studio 7</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=14&th_id=BEDFO&Movie=ALL&Day=3/3/05">Empire 6 Cinemas</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=49&th_id=BRIDG&Movie=ALL&Day=3/3/05">Empire Studio 7</a><br><br>
 
 <!-- DARTMOUTH -->
 
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=55&th_id=PENHO&Movie=ALL&Day=3/2/05">Empire 5, Penhorn Mall</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=55&th_id=PENHO&Movie=ALL&Day=3/3/05">Empire 5, Penhorn Mall</a><br><br>
 
 <!--<a href="/THEATRES/showtimes_new.asp?th_id=PENHO">Empire 5, Penhorn Mall</a><br><br>-->
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=15&th_id=DARTM&Movie=ALL&Day=3/2/05">Empire 6 Cinemas</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=15&th_id=DARTM&Movie=ALL&Day=3/3/05">Empire 6 Cinemas</a><br><br>
 
 
 <!-- HALIFAX -->
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=24&th_id=BAYER&Movie=ALL&Day=3/2/05">Empire 17 Cinemas<br>Bayers Lake</a><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/jobs/jobs_nightcleaners.asp"><img src="/images/hiring_yellow.gif" border="0"></a>--><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=13&th_id=OXFOR&Movie=ALL&Day=3/2/05">Oxford Theatre</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=25&th_id=IMAXT&Movie=ALL&Day=3/2/05">Empire IMAX Theatre</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=24&th_id=BAYER&Movie=ALL&Day=3/3/05">Empire 17 Cinemas<br>Bayers Lake</a><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/jobs/jobs_nightcleaners.asp"><img src="/images/hiring_yellow.gif" border="0"></a>--><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=13&th_id=OXFOR&Movie=ALL&Day=3/3/05">Oxford Theatre</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=25&th_id=IMAXT&Movie=ALL&Day=3/3/05">Empire IMAX Theatre</a><br><br>
 
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=54&th_id=PARKL&Movie=ALL&Day=3/2/05">Empire 8, Park Lane</a>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=54&th_id=PARKL&Movie=ALL&Day=3/3/05">Empire 8, Park Lane</a>
 &nbsp;&nbsp;<a href="/jobs/jobs_emp8FoodServiceSupervisor.asp"><img src="/images/hiring_yellow.gif" border=0></a>
 
 <br><br>
@@ -406,18 +406,18 @@ function getLocation(winWidth, winHeight, winLeft, winTop){
 -->
 
 
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=46&th_id=SACKV&Movie=ALL&Day=3/2/05">Empire Studio 7</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=11&th_id=ABERD&Movie=ALL&Day=3/2/05">Empire Studio 7</a>&nbsp;<a href="/jobs/jobs_PTfoodservicesupervisor.asp"><img src="/images/hiring_yellow.gif" border=0></a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=46&th_id=SACKV&Movie=ALL&Day=3/3/05">Empire Studio 7</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=11&th_id=ABERD&Movie=ALL&Day=3/3/05">Empire Studio 7</a>&nbsp;<a href="/jobs/jobs_PTfoodservicesupervisor.asp"><img src="/images/hiring_yellow.gif" border=0></a><br><br>
 
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=26&th_id=NEWMI&Movie=ALL&Day=3/2/05">Empire 7 Cinemas</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=26&th_id=NEWMI&Movie=ALL&Day=3/3/05">Empire 7 Cinemas</a><br><br>
 
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=7&th_id=SYDNE&Movie=ALL&Day=3/2/05">Empire Studio 10</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=7&th_id=SYDNE&Movie=ALL&Day=3/3/05">Empire Studio 10</a><br><br>
 
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=41&th_id=TRURO&Movie=ALL&Day=3/2/05">Empire Studio 7</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=41&th_id=TRURO&Movie=ALL&Day=3/3/05">Empire Studio 7</a><br><br>
 
 <a href="/THEATRES/drivein.html">Empire Drive-In</a><br><br>
 
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=5&th_id=YARMO&Movie=ALL&Day=3/2/05">Yarmouth Cinemas</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--<a href="/jobs/jobs_yarmouth.asp"><img src="/images/hiring_yellow.gif" border="0"></a><br><br>-->
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=5&th_id=YARMO&Movie=ALL&Day=3/3/05">Yarmouth Cinemas</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--<a href="/jobs/jobs_yarmouth.asp"><img src="/images/hiring_yellow.gif" border="0"></a><br><br>-->
 
 
 
@@ -441,10 +441,10 @@ function getLocation(winWidth, winHeight, winLeft, winTop){
 									&nbsp;&nbsp;&nbsp;St. John's</td>
 								<td height="25" class="etbody">
 									&nbsp;<br>
-									<br> <a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=18&th_id=MILLB&Movie=ALL&Day=3/2/05">Millbrook Cinemas</a><br><br>
+									<br> <a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=18&th_id=MILLB&Movie=ALL&Day=3/3/05">Millbrook Cinemas</a><br><br>
 
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=16&th_id=TOPSA&Movie=ALL&Day=3/2/05">Empire Cinemas Mount Pearl Shopping Center</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=17&th_id=AVALO&Movie=ALL&Day=3/2/05">Empire Studio 12</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=16&th_id=TOPSA&Movie=ALL&Day=3/3/05">Empire Cinemas Mount Pearl Shopping Center</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=17&th_id=AVALO&Movie=ALL&Day=3/3/05">Empire Studio 12</a><br><br>
 
 
 
@@ -467,8 +467,8 @@ function getLocation(winWidth, winHeight, winLeft, winTop){
 									&nbsp;&nbsp;&nbsp;Summerside</td>
 								<td height="25" class="etbody">
 									&nbsp;<br>
-									<br> <br><a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=21&th_id=CHARL&Movie=ALL&Day=3/2/05">Empire Studio 8</a><br><br>
-<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=36&th_id=SUMME&Movie=ALL&Day=3/2/05">Empire Studio 5</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br><br>
+									<br> <br><a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=21&th_id=CHARL&Movie=ALL&Day=3/3/05">Empire Studio 8</a><br><br>
+<a href="/THEATRES/new_showtime_by_theatre1.asp?t_id=36&th_id=SUMME&Movie=ALL&Day=3/3/05">Empire Studio 5</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br><br>
 
 								</td>
 							</tr>

@@ -30,7 +30,7 @@ use URI;
 use HTML::TokeParser::Simple;
 use Carp;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 __PACKAGE__->mk_accessors( qw( title link parent id ) );
 
@@ -85,6 +85,10 @@ sub cinemas {
 	my $parser = HTML::TokeParser::Simple->new( string => $agent->content );
 
 	my @results;
+
+	if( $agent->content =~ /Sorry, this movie is not playing on the selected day/ ) {
+		return \@results;
+	}
 
 	while( my $token = $parser->get_token ) {
 		next unless $token->is_start_tag( 'font' ) and $token->get_attr( 'color' ) and $token->get_attr( 'color' ) eq '#FFFFFF';

@@ -11,7 +11,9 @@ t/10-parse.t
 t/98-pod_coverage.t
 t/99-pod.t
 t/data/be_cool.html
+t/data/be_cool_playing.html
 t/data/by_movie.asp
 t/data/by_theatre.asp
 t/data/fredericton.html
+t/data/fredericton_be_cool.html
 META.yml                                 Module meta-data (added by MakeMaker)
