@@ -1,14 +1,38 @@
 package WWW::EmpireTheatres::Cinema;
 
+=head1 NAME
+
+WWW::EmpireTheatres::Cinema - A class representing a cinema
+
+=head1 SYNOPSIS
+
+	# what films are playing?
+	for my $film ( @{ $cinemas->films } ) {
+		printf( "%s\n", $film->title );
+	}
+
+	# when is it playing?
+	for my $showtime ( @{ $cinema->showtimes( film => $film ) } ) {
+		printf( "%s\n", $showtime->datetime );
+	}
+
+=head1 DESCRIPTION
+
+This class represents a cinema. You can find out what films playing
+and when.
+
+=cut
+
 use base qw( Class::Accessor );
 
 use WWW::EmpireTheatres::Showtime;
 
+use strict;
 use URI;
 use HTML::TokeParser::Simple;
 use Carp;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 __PACKAGE__->mk_accessors( qw( province city name link parent id ) );
 
@@ -161,7 +185,7 @@ The parent WWW::EmpireTheatres object.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2004 by Brian Cassidy
+Copyright 2005 by Brian Cassidy
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 

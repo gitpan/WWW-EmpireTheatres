@@ -25,11 +25,12 @@ and when it's playing.
 
 use base qw( Class::Accessor );
 
+use strict;
 use URI;
 use HTML::TokeParser::Simple;
 use Carp;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 __PACKAGE__->mk_accessors( qw( title link parent id ) );
 
@@ -128,7 +129,7 @@ The parent WWW::EmpireTheatres object.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2004 by Brian Cassidy
+Copyright 2005 by Brian Cassidy
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 

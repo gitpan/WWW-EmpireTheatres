@@ -61,7 +61,7 @@ use constant BASE_URL    => 'http://www.empiretheatres.com';
 use constant FILMS_URL   => BASE_URL . '/showtimes/by_movie.asp';
 use constant CINEMAS_URL => BASE_URL . '/theatres/by_theatre.asp';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 __PACKAGE__->mk_accessors( qw( films cinemas agent ) );
 
@@ -307,7 +307,7 @@ Returns the internal WWW::Mechanize object
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2004 by Brian Cassidy
+Copyright 2005 by Brian Cassidy
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 
