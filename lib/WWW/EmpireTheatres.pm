@@ -61,7 +61,7 @@ use constant BASE_URL    => 'http://www.empiretheatres.com';
 use constant FILMS_URL   => BASE_URL . '/showtimes/by_movie.asp';
 use constant CINEMAS_URL => BASE_URL . '/theatres/by_theatre.asp';
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 __PACKAGE__->mk_accessors( qw( films cinemas agent ) );
 
@@ -101,6 +101,7 @@ sub get_listings {
 	$agent->get( FILMS_URL );
 	croak( 'Error fetching listings' ) unless $agent->success;
 	$parser = HTML::TokeParser::Simple->new( string => $agent->content );
+	$parser->unbroken_text( 1 );
 
 	my @films;
 	while( my $token = $parser->get_token ) {
@@ -133,6 +134,7 @@ sub get_listings {
 	$agent->get( CINEMAS_URL );
 	croak( 'Error fetching listings' ) unless $agent->success;
 	$parser = HTML::TokeParser::Simple->new( string => $agent->content );
+	$parser->unbroken_text( 1 );
 
 	my @cinemas;
 	my $capture = 0;
@@ -186,6 +188,15 @@ sub get_listings {
 
 			next if $token->as_is =~ /<img/;
 
+			my $name  = $token->as_is;
+
+			$token = $parser->get_token;
+
+			if( $token->as_is =~ /<br/ ) {
+				$token = $parser->get_token;
+				$name .= ' ' . $token->as_is;
+			}			
+
 			my $uri   = URI->new( BASE_URL . $link );
 			my %query = $uri->query_form;
 
@@ -193,7 +204,7 @@ sub get_listings {
 				parent   => $self,
 				id       => $query{ TH_ID } || $query{ th_id },
 				link     => $uri->as_string,
-				name     => $token->as_is,
+				name     => $name,
 				province => $province,
 				city     => $temp[ $loc ]->{ city }
 			} );
