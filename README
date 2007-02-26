@@ -1,26 +1,86 @@
-WWW::EmpireTheaters - Get film listings for the Empire Theatres cinema chain
+NAME
+    WWW::EmpireTheatres - Get film listings for the Empire Theatres cinema
+    chain
 
-This module does some basic screen scraping of the http://www.empiretheatres.com/
-website to provide a listing of films, cinemas and showtimes.
+SYNOPSIS
+        use WWW::EmpireTheatres;
+    
+        my $empire = WWW::EmpireTheatres->new;
 
-INSTALLATION
+        # what films are currently playing in all locations
+        for my $film ( @{ $empire->films } ) {
+            printf( "%s\n", $film->title );
+        }
 
-To install this module type the following:
+        # what locations are there?
+        for my $cinema ( @{ $empire->cinemas } ) {
+            printf( "%s (%s, %s)\n", $cinema->name, $cinema->city, $cinema->province );
+        }
 
-   perl Makefile.PL
-   make
-   make test
-   make install
+        my $film   = $empire->film( title => 'SpongeBob' );
+        my $cinema = $empire->cinema( city => 'Fredericton' );
 
+        # get today's showtimes for SpongeBob @ Fredericton
+        for my $showtime ( @{ $cinema->showtimes( film => $film ) } ) {
+            printf( "%s\n", $showtime->datetime );
+        }
+
+        # where is the film playing?
+        for my $cinema ( @{ $film->cinemas } ) {
+            printf( "%s (%s, %s)\n", $cinema->name, $cinema->city, $cinema->province );
+        }
+
+        # what films are playing?
+        for my $film ( @{ $cinema->films } ) {
+            printf( "%s\n", $film->title );
+        }
+
+DESCRIPTION
+    This module does some basic screen scraping of the
+    http://www.empiretheatres.com/ website to provide a listing of films,
+    cinemas and showtimes.
+
+METHODS
+  new()
+    Creates a new object and gets the film and cinema listing.
+
+  get_listings( )
+    This method scrapes the film and cinema listing on the website. It is
+    automatically called when new() is called.
+
+  film( %options )
+    This allows you to search for a film. You can pass a portion of the
+    title and/or it's internal id.
+
+        # Christmas With The Kranks
+        $empire->film( title => 'Kranks' );
+
+  cinema( %options )
+    This allows you to search for a cinema. You can pass the name, city,
+    provice and/or the internal id. It returns the first successful match.
+
+        # Empire 10 Cinemas Regent Mall, Fredericton, New Brunswick
+        $empire->cinema( city => 'Fredericton' );
+
+  showtimes( film => $film, cinema => $cimena [, date => $date ] )
+    Returns the showtimes for $film @ $cinema on $date (or today if no date
+    is specified)
+
+  films( )
+    Returns the list of films
+
+  cinemas( )
+    Returns the list cinemas
+
+  agent( )
+    Returns the internal WWW::Mechanize object
 
 AUTHOR
-
-Brian Cassidy <bricas@cpan.org>
-
+    * Brian Cassidy <bricas@cpan.org>
 
 COPYRIGHT AND LICENSE
+    Copyright 2007 by Brian Cassidy
 
-Copyright 2005 by Brian Cassidy
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.

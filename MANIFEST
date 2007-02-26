@@ -1,10 +1,12 @@
+Build.PL
 Changes
 lib/WWW/EmpireTheatres.pm
 lib/WWW/EmpireTheatres/Cinema.pm
 lib/WWW/EmpireTheatres/Film.pm
 lib/WWW/EmpireTheatres/Showtime.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
+META.yml
 README
 t/01-use.t
 t/10-parse.t
@@ -16,4 +18,3 @@ t/data/by_movie.asp
 t/data/by_theatre.asp
 t/data/fredericton.html
 t/data/fredericton_be_cool.html
-META.yml                                 Module meta-data (added by MakeMaker)

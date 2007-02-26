@@ -1,16 +1,34 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         WWW-EmpireTheatres
-version:      0.04
-version_from: lib/WWW/EmpireTheatres.pm
-installdirs:  site
+---
+name: WWW-EmpireTheatres
+version: 0.05
+author:
+  - 'Brian Cassidy <bricas@cpan.org>'
+abstract: Get film listings for the Empire Theatres cinema chain
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
 requires:
-    Class::Accessor:               0
-    HTML::TokeParser::Simple:      0
-    Test::MockModule:              0
-    Test::More:                    0
-    URI:                           0
-    WWW::Mechanize:                0
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.17
+  Class::Accessor: 0
+  HTML::TokeParser::Simple: 3
+  URI: 0
+  WWW::Mechanize: 0
+build_requires:
+  Test::MockModule: 0
+  Test::More: 0
+provides:
+  WWW::EmpireTheatres:
+    file: lib/WWW/EmpireTheatres.pm
+    version: 0.05
+  WWW::EmpireTheatres::Cinema:
+    file: lib/WWW/EmpireTheatres/Cinema.pm
+    version: 0.03
+  WWW::EmpireTheatres::Film:
+    file: lib/WWW/EmpireTheatres/Film.pm
+    version: 0.04
+  WWW::EmpireTheatres::Showtime:
+    file: lib/WWW/EmpireTheatres/Showtime.pm
+    version: 0.03
+generated_by: Module::Build version 0.2806
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
